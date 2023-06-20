@@ -55,7 +55,14 @@ margin: 0 auto;
                 align-items: center;
 }
 
-.header-adress {font-style: normal;}
+.header-adress {
+              font-style: normal;}
+
+.header-menu list {
+        padding: 24px 0;
+        gap: 40px
+}
+
 
 .header-menu-link {
         font-family: 'Roboto';
@@ -80,21 +87,7 @@ color:var(--title-color);}
                 letter-spacing: 0.02em;
                 margin-right: 76px;
                 display: flex;
-                        align-items: center;
-        color: var(--second-text-color);}
-  
-
-.header-menu-link:hover {color: #404bbf;}
-.header-menu-link:focus {color: #404bbf;}
-
-.header-menu-contact {
-        font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-        color: var(--second-text-color);}
+         color: var(--second-text-color);}
 
 .header-menu-contact:hover {color: #404bbf;}
 .header-menu-contact:focus {color: #404bbf;}
