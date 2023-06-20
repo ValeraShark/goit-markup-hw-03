@@ -10,6 +10,8 @@ body { font-family:'Roboto', sans-serif;color: #434455;background-color: #FFFFFF
 .list {list-style-type: none;}
 
 /* ----------------header-----*/
+.header { border-bottom: 1px solid #e7e9fc}
+
 .headercont {
 display: flex;
 align-items: center;
@@ -23,6 +25,7 @@ max-width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
+display: flex;
 }
 
 
