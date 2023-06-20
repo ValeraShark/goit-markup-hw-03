@@ -10,11 +10,28 @@ body { font-family:'Roboto', sans-serif;color: #434455;background-color: #FFFFFF
 .list {list-style-type: none;}
 
 /* ----------------header-----*/
+.headercont {
+display: flex;
+align-items: center;
+}
+
+
+
+.container-header {
+        width:100;
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+
 .header-logo {
         font-family: 'Raleway', sans-serif;
         /* ----нижче товщина (жирність) шрифта-----*/
         font-weight: 800;
         font-size: 18px;
+        margin-right: 76px;
         /* ----нижче висота рядка вимір-ся у відносних величинах вимірювання----- */
         line-height: 1.17;
         letter-spacing: 0.03em;
@@ -32,16 +49,39 @@ body { font-family:'Roboto', sans-serif;color: #434455;background-color: #FFFFFF
         letter-spacing: 0.03em;
         color: #F4F4FD;
 }
+
+.header-menu {
+        display: flex;
+                align-items: center;
+}
+
 .header-adress {font-style: normal;}
 
 .header-menu-link {
         font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
+margin-right: 76px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 cursor: pointer;
 color:var(--title-color);}
+  
+
+.header-menu-link:hover {color: #404bbf;}
+.header-menu-link:focus {color: #404bbf;}
+
+.header-menu-contact {
+        font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                margin-right: 76px;
+                display: flex;
+                        align-items: center;
+        color: var(--second-text-color);}
   
 
 .header-menu-link:hover {color: #404bbf;}
