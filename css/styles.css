@@ -87,7 +87,8 @@ color:var(--title-color);}
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                margin-right: 76px;
+                margin-right: 40px;
+                gap: 40px;
                 display: flex;
          color: var(--second-text-color);}
 
