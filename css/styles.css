@@ -194,50 +194,49 @@ text-transform: capitalize;
 
 /** -------------------Team------------ */
 .team {
-    padding: 120px 0 120px;
-    background-color:#F4F4FD;}
+        padding: 120px 0 120px;
+        background-color: #F4F4FD;
+}
 
 .team-title {
         margin-bottom: 72px;
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;}
-
-.namejob {
-        padding-top: 32px;
-        padding-bottom: 32px;
-                padding-left: 16px;
-                padding-right: 16px)
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
 }
 
 .team {
-    display: flex;
-     gap: 24px;}
+        display: flex;
+        gap: 24px;
+}
 
-.team-item { background-color: #FFFFFF;}
+.team-item {
+        background-color: #FFFFFF;
+}
 
 .team-subtitle {
-        margin-bottom: 8px
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.02em;
-color: #2E2F42;}
+        margin-bottom: 8px;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
 
 .team-item-text {
         text-align: center;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--second-text-color);}     
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);
+}
 
 /** -------------------Footer---------------- */
 .footer {
