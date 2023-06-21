@@ -63,7 +63,8 @@ display: flex;
 
 .header-menu list {
         padding: 24px 0;
-        gap: 40px
+        gap: 40px;
+    display: flex; 
 }
 
 
