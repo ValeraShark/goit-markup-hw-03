@@ -39,8 +39,7 @@ display: flex;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
-}
+        color: #4D5AE5;}
 
 .header-logo span {color: #2E2F42;}
 .headercolortext {
@@ -50,13 +49,11 @@ display: flex;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        color: #F4F4FD;
-}
+        color: #F4F4FD;}
 
 .header-menu {
         display: flex;
-                align-items: center;
-}
+        align-items: center;}
 
 .header-address {
               font-style: normal;}
@@ -64,8 +61,7 @@ display: flex;
 .header-menu list {
         padding: 24px 0;
         gap: 40px;
-    display: flex; 
-}
+    display: flex; }
 
 
 .header-menu-link {
@@ -173,22 +169,16 @@ text-transform: capitalize;
         display: flex;
         gap: 24px;}
 
-.monoblok {
-        width: calc((100% - 48px) / 3);
-}
+.monoblok {width: calc((100% - 48px) / 3);}
 
-.mobile {
-        width: calc((100% - 48px) / 3);
-}
+.mobile {width: calc((100% - 48px) / 3);}
 
-.noutbooke {
-        width: calc((100% - 48px) / 3);
-}
+.noutbooke {width: calc((100% - 48px) / 3);}
 
 /** -------------------Team------------ */
-.container-team {
-background-color:#F4F4FD;
-}
+.team {
+    padding: 120px;
+    background-color:#F4F4FD;}
 
 .team-title {
         margin-bottom: 72px;
@@ -203,8 +193,7 @@ color: #2E2F42;}
 
 .team {
         display: flex;
-        gap: 24px;
-}
+        gap: 24px;}
 
 .team-item {background-color:#FFFFFF;}
 
