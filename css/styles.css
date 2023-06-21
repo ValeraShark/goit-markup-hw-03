@@ -161,6 +161,7 @@ padding-bottom: 188px;
         font-size: 20px;
         line-height:1.2;
         letter-spacing: 0.02em;
+    width: calc((100% - 48px)/3);
         color: #2E2F42;}
 
 .benefits-item-text {
