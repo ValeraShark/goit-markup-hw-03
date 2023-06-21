@@ -132,13 +132,12 @@ padding-bottom: 188px;
 
 /** -------------------Benefits------------ */
 .benefits {
+        padding-left: 0;
         display: flex;
         gap: 24px;
 }
 
 .benefits-item {
-        margin-right: 24px;
-        margin-right: 0;
         width: calc((100% - 72px) / 4);
 }
 
