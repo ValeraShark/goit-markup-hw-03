@@ -228,6 +228,8 @@ color: var(--second-text-color);}
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+              display: inline-block;
+        margin-bottom: 16px;
         color: #4D5AE5;}
 
  .footer-logo span {color: #F4F4FD;}
@@ -241,6 +243,7 @@ color: var(--second-text-color);}
         color: #F4F4FD;
 }
 .footer-text {
+      max-width: 264px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
