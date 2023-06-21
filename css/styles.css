@@ -208,6 +208,13 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;}
 
+.namejob {
+        padding-top: 32px;
+        padding-bottom: 32px;
+                padding-left: 16px;
+                padding-right: 16px)
+}
+
 .team {
     display: flex;
      gap: 24px;}
