@@ -218,6 +218,8 @@ color: var(--second-text-color);}
 
 /** -------------------Footer---------------- */
 .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
         background-color:var(--title-color);}
 
 .footer-logo { font-family: "Raleway", sans-serif;
