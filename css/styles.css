@@ -131,11 +131,19 @@ padding-bottom: 188px;
 .hero-btn:focus {background-color: #404BBF;}
 
 /** -------------------Benefits------------ */
+.benefits {
+        display: flex;
+        gap: 24px;
+}
 
-.benefits-list {}
-.benefits-item {}
+.benefits-item {
+        margin-right: 24px;
+        margin-right: 0;
+        width: calc((100% - 72px) / 4);
+}
 
 .benefits-subtitle {
+     margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height:1.2;
@@ -143,6 +151,7 @@ padding-bottom: 188px;
         color: #2E2F42;}
 
 .benefits-item-text {
+     margin-bottom: 8px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
