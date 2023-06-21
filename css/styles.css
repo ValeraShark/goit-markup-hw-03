@@ -97,8 +97,12 @@ color:var(--title-color);}
 .header-menu-contact:focus {color: #404bbf;}
 
 /** -------------------Hero---------------- */
-.hero {
-        background-color: #2E2F42;}
+
+.container-hero {
+background-color: #2E2F42;
+padding-top: 188px;
+padding-bottom: 188px;
+}
 
 .hero-title {
         font-weight: 700;
