@@ -263,9 +263,11 @@ color: var(--second-text-color);}
 
 .portfpage {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        gap: 24px;
-        margin-bottom: 72px
+        column-gap: 24px;
+        row-gap: 48px;
+        margin-bottom: 72px;
 }
 
 .portfpage-btn {
