@@ -254,19 +254,38 @@ color: var(--second-text-color);}
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--main-text-color);}
+/** -------------------Portfolio---------------- */
+
+.container-content {
+        padding-top: 96px;
+        padding-bottom: 120px;
+}
+
+.portfpage {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px
+}
 
 .portfpage-btn {
-        font-family:'Roboto', sans-serif;
+        padding: 12px 24px;
+                font-family:'Roboto', sans-serif;
+                border: 1px solid #e7e9fc;
+                border-radius: 4px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
         color: var(--logo-color);
-        background-color:var(--main-text-color);}
+        background-color:var(--main-text-color);
+}
 
-.portfpage-btn:hover {color: #FFFFFF; background-color: #404BBF}
-.portfpage-btn:focus {color: #FFFFFF; background-color: #404BBF}
+.portfpage-btn:hover {color: #FFFFFF; background-color: #404BBF; border: 1px solid transparent}
+.portfpage-btn:focus {color: #FFFFFF; background-color: #404BBF border: 1px solid transparent}
+
+
 
 .portfolio {
         font-family:'Roboto', sans-serif;
