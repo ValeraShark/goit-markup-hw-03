@@ -210,9 +210,12 @@ color: #2E2F42;}
 
 .team {
         display: flex;
-        gap: 24px;}
+       }
 
-.team-item {background-color:#FFFFFF;}
+.team-item {
+        background-color: #FFFFFF;
+        gap: 24px;
+}
 
 .team-subtitle {
         margin-bottom: 8px
