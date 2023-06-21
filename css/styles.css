@@ -209,13 +209,10 @@ text-transform: capitalize;
 color: #2E2F42;}
 
 .team {
-        display: flex;
-       }
+    display: flex;
+     gap: 24px;}
 
-.team-item {
-        background-color: #FFFFFF;
-        gap: 24px;
-}
+.team-item { background-color: #FFFFFF;}
 
 .team-subtitle {
         margin-bottom: 8px
