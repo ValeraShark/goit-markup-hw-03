@@ -131,13 +131,9 @@ padding-bottom: 188px;
         padding-top: 120px;
         padding-bottom: 120px;
         display: flex;
-        gap: 24px;
-}
+        gap: 24px;}
 
-
-.benefits-item {
-        width: calc((100% - 72px) / 4);
-}
+.benefits-item {width: calc((100% - 72px) / 4);}
 
 .benefits-subtitle {
      margin-bottom: 8px;
@@ -158,9 +154,9 @@ padding-bottom: 188px;
 .electronica {padding-bottom: 120px;}
 .electronica-title {
         margin-bottom: 72px;
-                        font-weight: 700;
-                font-size: 36px;
-                line-height: 1.11;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
     text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -177,7 +173,7 @@ text-transform: capitalize;
 
 /** -------------------Team------------ */
 .team {
-    padding: 120px;
+    padding: 120px 0 120px;
     background-color:#F4F4FD;}
 
 .team-title {
