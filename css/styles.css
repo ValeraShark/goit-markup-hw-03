@@ -53,11 +53,11 @@ display: flex;
         color: #F4F4FD;}
 
 .header-menu {
-       padding-top: 24px;
-        padding-bottom: 24px;
-        display: flex;
-        align-items: center;
-      gap: 40px;}
+    padding-left: 0; 
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;}
 
 .header-address {
               font-style: normal;}
@@ -69,6 +69,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 cursor: pointer;
+display: block; 
+padding: 24px 0;
 color:var(--title-color);}
   
 
@@ -82,7 +84,6 @@ color:var(--title-color);}
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                margin-right: 40px;
                 display: flex;
          color: var(--second-text-color);}
 
