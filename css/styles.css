@@ -291,10 +291,12 @@ text-transform: capitalize;
                   clip: rect(0 0 0 0); 
                   overflow: hidden; }
 .portfpage {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 24px;
+        row-gap: 48px;
+        margin-bottom: 72px;
 }
 
 .portfpage-btn {
