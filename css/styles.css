@@ -54,7 +54,8 @@ display: flex;
 
 .header-menu {
         display: flex;
-        align-items: center;}
+        align-items: center
+      gap: 40px;  ;}
 
 .header-address {
               font-style: normal;}
