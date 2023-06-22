@@ -320,6 +320,7 @@ text-transform: capitalize;
 
 
 
+
 .portfolio {
         font-family:'Roboto', sans-serif;
         font-style: normal;
@@ -328,6 +329,13 @@ text-transform: capitalize;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-color);}
+
+.container-portfpage {
+     border: 1px solid #e7e9fc;;
+    padding: 32px 16px;
+    border-top: none;
+    width: 360px;
+}
 
 .portfcontent {
         font-family:'Roboto', sans-serif;
