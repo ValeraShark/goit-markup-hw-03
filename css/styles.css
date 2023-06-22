@@ -279,6 +279,7 @@ text-transform: capitalize;
 /** -------------------Portfolio---------------- */
 
 .container-content {padding: 96px 0 120px 0;}
+
 .visually-hidden { position: absolute; 
                   width: 1px; 
                   height: 1px; 
@@ -290,13 +291,10 @@ text-transform: capitalize;
                   clip: rect(0 0 0 0); 
                   overflow: hidden; }
 .portfpage {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        column-gap: 24px;
-        row-gap: 48px;
-        margin-bottom: 72px;
-}
+      display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;}
 
 .portfpage-btn {
         padding: 12px 24px;
