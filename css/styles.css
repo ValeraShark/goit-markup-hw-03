@@ -302,6 +302,7 @@ text-transform: capitalize;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+    gap: 24px;
         color: var(--logo-color);
         background-color:var(--main-text-color);
 }
