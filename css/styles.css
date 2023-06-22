@@ -270,7 +270,7 @@ text-transform: capitalize;
         color: var(--main-text-color);}
 /** -------------------Portfolio---------------- */
 
-.container-content {padding: 96px 0 120px 0;}
+.content {padding: 96px 0 120px 0;}
 
 .visually-hidden { position: absolute; 
                   width: 1px; 
