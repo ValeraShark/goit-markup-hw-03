@@ -182,11 +182,7 @@ text-transform: capitalize;
         display: flex;
         gap: 24px;}
 
-.monoblok {width: calc((100% - 48px) / 3);}
-
-.mobile {width: calc((100% - 48px) / 3);}
-
-.noutbooke {width: calc((100% - 48px) / 3);}
+.tehnika {width: calc((100% - 48px) / 3);}
 
 /** -------------------Team------------ */
 .team {
