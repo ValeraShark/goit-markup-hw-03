@@ -187,7 +187,10 @@ padding-bottom: 188px;
         color:var(--second-text-color);}
 
 /**-----------------------Section2----------*/
-.electronica {padding-bottom: 120px;}
+.electronica {padding-bottom: 120px;
+              display: flex;
+        gap: 24px;}
+
 .electronica-title {
         margin-bottom: 72px;
         font-weight: 700;
@@ -196,13 +199,14 @@ padding-bottom: 188px;
     text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-                color: #2E2F42;}
-.electronica {
-        display: flex;
-        gap: 24px;}
+                color: #2E2F42;
+}
+
 .electronica list {padding-left: 0;}
 
-.tehnika {width: calc((100% - 48px)/3);}
+.tehnika {
+    width: calc((100% - 48px)/3);
+}
 
 /** -------------------Team------------ */
 .team {
