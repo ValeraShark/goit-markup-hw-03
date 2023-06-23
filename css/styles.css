@@ -40,6 +40,7 @@ padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
 display: flex;
+align-items: center;
 }
 
 .header-logo {
@@ -72,6 +73,7 @@ display: flex;
     gap: 40px;}
 
 .header-address {
+    margin-left: auto;
               font-style: normal;}
 
 .header-menu-link {
@@ -141,12 +143,15 @@ padding-bottom: 188px;
 .hero-btn:focus {background-color: #404BBF;}
 
 /** -------------------Benefits------------ */
+.benefits-section {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
 .benefits {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    weight: 1158px;
-        display: flex;
-        gap: 24px;}
+    display: flex; 
+    gap: 24px; 
+    padding-left: 0;
+    }
 
 .visually-hidden { position: absolute; 
                   width: 1px; 
@@ -321,6 +326,7 @@ text-transform: capitalize;
 .portfpage-btn:focus {color: #FFFFFF; background-color: #404BBF; border: 1px solid transparent;}
 
 .portfcard {
+    padding-left: 0;
     display: flex;  
     flex-wrap: wrap;
     column-gap: 24px;
