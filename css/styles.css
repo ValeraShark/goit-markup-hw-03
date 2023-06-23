@@ -299,19 +299,7 @@ text-transform: capitalize;
         display: flex;  
     justify-content: center; 
     gap: 24px;  
-    margin-bottom: 72px;
-}
-
-
-.portfcard {
-    display: flex;  
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px; 
     margin-bottom: 72px;}
-
-.portfcard-lin {width: calc((100% - 48px) / 3);}
-
 
 .portfpage-btn {
         padding: 12px 24px;
@@ -323,13 +311,24 @@ text-transform: capitalize;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
-    gap: 24px;
+        gap: 24px;
         color: var(--logo-color);
-        background-color:var(--main-text-color);
-}
+        background-color:var(--main-text-color);}
 
-.portfpage-btn:hover {color: #FFFFFF; background-color: #404BBF; border: 1px solid transparent}
-.portfpage-btn:focus {color: #FFFFFF; background-color: #404BBF; border: 1px solid transparent}
+.portfpage-btn:hover {color: #FFFFFF; background-color: #404BBF; border: 1px solid transparent;}
+.portfpage-btn:focus {color: #FFFFFF; background-color: #404BBF; border: 1px solid transparent;}
+
+.portfcard {
+    display: flex;  
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px; 
+    margin-bottom: 72px;}
+
+.portfcard-lin {width: calc((100% - 48px) / 3);}
+
+
+
 
 
 
