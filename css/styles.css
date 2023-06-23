@@ -195,7 +195,7 @@ text-transform: capitalize;
         display: flex;
         gap: 24px;}
 
-.tehnika {width: calc((100% - 48px) / 3);}
+.tehnika {width: calc((100% - 48px)/3);}
 
 /** -------------------Team------------ */
 .team {
