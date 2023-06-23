@@ -159,8 +159,9 @@ padding-bottom: 188px;
                   overflow: hidden; }
 
 .benefits list {padding-left: 0;}
+
 .benefits-item {
-   width calc((100% - 3 * 24px) / 4);
+   width: calc((100% - 72px) / 4)
 }
 
 .benefits-subtitle {
