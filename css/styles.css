@@ -152,6 +152,9 @@ padding-bottom: 188px;
     display: flex; 
     gap: 24px; 
        }
+.list {
+    margin: 0;
+    padding-left: 0;}
 
 .visually-hidden { position: absolute; 
                   width: 1px; 
@@ -163,10 +166,6 @@ padding-bottom: 188px;
                   clip-path: inset(100%); 
                   clip: rect(0 0 0 0); 
                   overflow: hidden; }
-
-.benefits list {
-    margin: 0;
-    padding-left: 0;}
 
 .benefits-item {
    width: calc((100% - 72px) / 4);
@@ -189,7 +188,7 @@ padding-bottom: 188px;
 
 /**-----------------------Section3----------*/
 .electronica-section {
-        padding-top: 120px;
+        padding-top: 0;
         padding-bottom: 120px;}
 
 .electronica-title {
@@ -230,7 +229,7 @@ padding-bottom: 188px;
         color: #2E2F42;
 }
 
-.team {
+.teamlist {
         display: flex;
         gap: 24px;
 }
@@ -315,6 +314,7 @@ padding-bottom: 188px;
     justify-content: center; 
     gap: 24px;  
     margin-bottom: 72px;}
+.list {}
 
 .portfpage-btn {
         padding: 12px 24px;
@@ -338,8 +338,8 @@ padding-bottom: 188px;
     display: flex;  
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px; 
-    margin-bottom: 72px;}
+    row-gap: 48px; }
+ 
 
 .portfcards { width: calc((100% - 48px) / 3);}
 
