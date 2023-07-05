@@ -121,6 +121,7 @@ padding-bottom: 188px;
         letter-spacing: 0.02em;
          margin-left: auto;
         margin-right: auto;
+    margin-bottom: 48px;
         color: #FFFFFF;}
 
 .hero-btn {font-family: 'Roboto', sans-serif;
@@ -150,8 +151,7 @@ padding-bottom: 188px;
 .benefits {
     display: flex; 
     gap: 24px; 
-    padding-left: 0;
-    }
+       }
 
 .visually-hidden { position: absolute; 
                   width: 1px; 
@@ -164,7 +164,9 @@ padding-bottom: 188px;
                   clip: rect(0 0 0 0); 
                   overflow: hidden; }
 
-.benefits list {padding-left: 0;}
+.benefits list {
+    margin: 0;
+    padding-left: 0;}
 
 .benefits-item {
    width: calc((100% - 72px) / 4);
@@ -180,8 +182,7 @@ padding-bottom: 188px;
         color: #2E2F42;}
 
 .benefits-item-text {
-     margin-bottom: 8px;
-        font-size: 16px;
+            font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--second-text-color);}
